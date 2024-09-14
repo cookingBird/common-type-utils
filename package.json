@@ -1,5 +1,5 @@
 {
-  "name": "@dt/common-types",
+  "name": "@easy/common-types",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "typescript": "^5.5.4 || ^4"
+  }
 }

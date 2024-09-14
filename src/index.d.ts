@@ -10,3 +10,7 @@ export type Shift<T extends any[]> = ((...t: T) => any) extends (
 ) => any
   ? Rest
   : never;
+
+export type NOOP = () => void;
+
+export type ANYOP = (...params: any[]) => any | void;
