@@ -1,3 +1,4 @@
+import type { ReplaceTuple } from './Tuple.d';
 export type EnhanceParamsType<
   T extends (...params: any) => any,
   I extends number,
